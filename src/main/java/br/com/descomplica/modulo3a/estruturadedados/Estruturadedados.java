@@ -4,6 +4,8 @@
 
 package br.com.descomplica.modulo3a.estruturadedados;
 
+import br.com.descomplica.modulo3a.estruturadedados.aulas.Vetores;
+
 /**
  *
  * @author wilson
@@ -11,6 +13,11 @@ package br.com.descomplica.modulo3a.estruturadedados;
 public class Estruturadedados {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        Vetores vetores = new Vetores();
+        
+        int resultado = vetores.Soma();
+        
+        System.out.println("Resultado do vetor: "+ resultado);
     }
 }
