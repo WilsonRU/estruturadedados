@@ -1,4 +1,4 @@
-package br.com.descomplica.modulo3a.estruturadedados.aulas;
+package br.com.descomplica.modulo3a.estruturadedados.aulas.ordenacao;
 
 /**
  *

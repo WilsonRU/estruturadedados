@@ -1,4 +1,4 @@
-package br.com.descomplica.modulo3a.estruturadedados.aulas;
+package br.com.descomplica.modulo3a.estruturadedados.aulas.ordenacao;
 
 /**
  *
@@ -6,13 +6,15 @@ package br.com.descomplica.modulo3a.estruturadedados.aulas;
  */
 public class BubbleSort {
 
+	private static int aux;
+	/*
+	 * Algoritimo de ordençao BubbleSort 
+	*/
     public static int[] sort(int num[]) {
-        final int n = num.length;
-        int aux;
-        for(int i = 0; i < n-1; i++){
-            for (int j = 0; j < n-1-i; i++){
+        for(int i = 0; i < num.length-1; i++){
+            for (int j = 0; j < num.length-1-i; i++){
                 if (num[j] > num[j+1]){
-                    aux = num[j];
+                	aux = num[j];
                     num[j] = num[j+1];
                     num[j+1] = aux;
                 }
